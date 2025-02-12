@@ -26,4 +26,4 @@ print(processed_data["most_popular_device"].value_counts())
 
 processed_data.to_csv("processed_with_target.csv", index=False)
 
-print("Step 1 completed. Data saved as 'processed_with_target.csv'.")
+print("data saved as 'processed_with_target.csv'.")
